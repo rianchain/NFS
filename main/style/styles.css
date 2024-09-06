@@ -138,7 +138,7 @@ th:nth-child(1), td:nth-child(1) {
         width: 90%; /* Lebar form yang fleksibel */
         max-width: 600px; /* Lebar maksimum form */
         background-color: rgb(255, 195, 142);
-        padding: 20px;
+        padding: 15px;
         margin: 0 auto; /* Memusatkan form secara horizontal */
         border-radius: 8px; /* Sudut membulat untuk form */
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan untuk efek kedalaman */
