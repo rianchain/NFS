@@ -57,7 +57,7 @@ table {
     max-width: 1230px; /* Lebar maksimum tabel */
     margin: 0 auto; /* Memusatkan tabel di layar */
     border-collapse: collapse;
-    table-layout: auto; /* Menetapkan lebar tabel agar lebih konsisten */
+    table-layout: fixed; /* Menetapkan lebar tabel agar lebih konsisten */
 }
 
 table, th, td {
@@ -161,11 +161,20 @@ th:nth-child(1), td:nth-child(1) {
         font-weight: 500;
     }
 
+    table {
+        background-color: whitesmoke;
+        width: 100%; /* Lebar penuh */
+        max-width: 1230px; /* Lebar maksimum tabel */
+        margin: 0 auto; /* Memusatkan tabel di layar */
+        border-collapse: collapse;
+        table-layout: auto; /* Menetapkan lebar tabel agar lebih konsisten */
+    }
+
     th:nth-child(3), td:nth-child(3) {
         /* padding: 10px; */
         text-align: center;
         vertical-align: middle;
-        width: 17%;
+        width: 0%;
     }
 
     th:nth-child(2), td:nth-child(2) {
