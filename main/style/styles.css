@@ -38,16 +38,16 @@ button {
     cursor: pointer;
     border: none; */
     text-decoration: none; 
-            border: none; 
-            padding: 12px 40px; 
-            font-size: 16px; 
-            background-color: tomato; 
-            color: #fff; 
-            border-radius: 5px; 
-            box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24); 
-            cursor: pointer; 
-            outline: none; 
-            transition: 0.2s all;
+    border: none; 
+    padding: 12px 40px; 
+    font-size: 16px; 
+    background-color: tomato; 
+    color: #fff; 
+    border-radius: 20px; 
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24); 
+    cursor: pointer; 
+    outline: none; 
+    transition: 0.2s all;
 }
 
 button:active {
