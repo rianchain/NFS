@@ -88,6 +88,7 @@ function addItemToList(item, price, quantity) {
     deleteButton.style.overflow = 'hidden'; // Menghindari overflow teks
     deleteButton.style.whiteSpace = 'nowrap'; // Menghindari teks terputus ke baris berikutnya
     deleteButton.style.textOverflow = 'ellipsis';
+    deleteButton.style.cursor = "pointer";
     deleteButton.appendChild(icon);
     cellAction.appendChild(deleteButton);
 }
