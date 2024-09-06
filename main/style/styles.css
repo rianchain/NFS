@@ -40,6 +40,10 @@ input {
     
 */
 
+button {
+   cursor: pointer; 
+}
+
 button:active {
     transform: scale(0.98); 
             /* Scaling button to 0.98 to its original size */ 
