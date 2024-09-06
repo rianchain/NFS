@@ -10,7 +10,7 @@ h1, h2, h3 {
 form {
     width: 100%; /* Lebar form yang fleksibel */
     max-width: 1200px; /* Lebar maksimum form */
-    background-color: yellow;
+    background-color: rgb(255, 195, 142);
     padding: 20px;
     margin: 0 auto; /* Memusatkan form secara horizontal */
     border-radius: 8px; /* Sudut membulat untuk form */
@@ -31,12 +31,30 @@ input {
 }
 
 button {
-    background-color: tomato;
+    /* background-color: tomato;
     padding: 10px 2px;
     margin-top: 10px;
     font-size: 16px;
     cursor: pointer;
-    border: none;
+    border: none; */
+    text-decoration: none; 
+            border: none; 
+            padding: 12px 40px; 
+            font-size: 16px; 
+            background-color: tomato; 
+            color: #fff; 
+            border-radius: 5px; 
+            box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24); 
+            cursor: pointer; 
+            outline: none; 
+            transition: 0.2s all;
+}
+
+button:active {
+    transform: scale(0.98); 
+            /* Scaling button to 0.98 to its original size */ 
+            box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24); 
+            /* Lowering the shadow */ 
 }
 
 table {
@@ -61,6 +79,12 @@ th, td {
     color: #4CAF50;
 }
 
+#submit-button {
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+
 @media (max-width: 767px) {
     form {
         width: 90%; /* Lebar form yang fleksibel */
@@ -82,5 +106,10 @@ th, td {
     font-size: 16px;
     cursor: pointer;
     border-radius: 25px;
+    }
+
+    #submit-button {
+        color: black;
+        font-weight: lighter;
     }
 }
