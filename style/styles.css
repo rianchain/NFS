@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+form {
+    width: 100%; /* Lebar form yang fleksibel */
+    max-width: 1200px; /* Lebar maksimum form */
+    background-color: yellow;
+    padding: 20px;
+    margin: 0 auto; /* Memusatkan form secara horizontal */
+    border-radius: 8px; /* Sudut membulat untuk form */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan untuk efek kedalaman */
+    display: flex;
+    flex-direction: column; /* Mengatur form agar elemen berada di bawah satu sama lain */
+    gap: 10px;
+}
+
+label {
+    padding-top: 5px;
+    justify-content: center;
+}
+
+input {
+    padding: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: tomato;
+    padding: 10px 2px;
+    margin-top: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+}
+
+table {
+    background-color: whitesmoke;
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    table-layout: fixed; /* Menetapkan lebar tabel agar lebih konsisten */
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+#total-price {
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+@media (max-width: 767px) {
+    form {
+        width: 90%; /* Lebar form yang fleksibel */
+        max-width: 600px; /* Lebar maksimum form */
+        background-color: rgb(255, 195, 142);
+        padding: 20px;
+        margin: 0 auto; /* Memusatkan form secara horizontal */
+        border-radius: 8px; /* Sudut membulat untuk form */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan untuk efek kedalaman */
+        display: flex;
+        flex-direction: column; /* Mengatur form agar elemen berada di bawah satu sama lain */
+        gap: 10px;
+    }
+
+    button {
+    background-color: tomato;
+    padding: 15px 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 25px;
+    }
+}
