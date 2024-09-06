@@ -171,7 +171,7 @@ th:nth-child(1), td:nth-child(1) {
     }
 
     th:nth-child(3), td:nth-child(3) {
-        /* padding: 10px; */
+        padding: 3px;
         text-align: center;
         vertical-align: middle;
         width: 0%;
@@ -180,14 +180,14 @@ th:nth-child(1), td:nth-child(1) {
     th:nth-child(2), td:nth-child(2) {
         text-align: center;
         vertical-align: middle;
-        width: 1%;
+        width: 18%;
     }
     
     th:nth-child(4), td:nth-child(4) {
         /* padding: 10px; */
         text-align: center;
         vertical-align: middle;
-        width: 17%;
+        width: 18%;
     }
     
     th:nth-child(5), td:nth-child(5) {
@@ -197,6 +197,7 @@ th:nth-child(1), td:nth-child(1) {
     th:nth-child(1), td:nth-child(1) {
         text-align: center; /* Menjaga teks berada di tengah */
         vertical-align: middle; /* Opsional: Menjaga teks di tengah secara vertikal */
-        padding: 5px; /* Memberi jarak yang cukup dari tepi */
+        padding: 0px; /* Memberi jarak yang cukup dari tepi */
+        width: 35%;
     }
 }
