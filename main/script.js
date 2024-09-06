@@ -68,14 +68,17 @@ function addItemToList(item, price, quantity) {
     const icon = document.createElement('i');
     icon.className = 'bi bi-trash-fill'; 
     icon.style.color = 'black'
-    icon.style.fontSize = '1.5rem';
-    icon.style.alignItems = 'center'
+    // icon.style.fontSize = '1.5rem';
+    // icon.style.alignItems = 'center'
+    icon.style.fontSize = '1.2rem'; // Ukuran font ikon yang sesuai
+    icon.style.display = 'inline-block';
     // deleteButton.textContent = 'Hapus';
     deleteButton.onclick = function() {
         table.deleteRow(row.rowIndex - 1);
         removeFromLocalStorage(item);
         updateTotalPrice();
     };
+    // Styling tombol hapus
     deleteButton.style.width = '100%';
     deleteButton.style.border = 'none';
     deleteButton.style.borderRadius = '2px';

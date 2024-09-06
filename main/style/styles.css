@@ -53,20 +53,65 @@ button:active {
 
 table {
     background-color: whitesmoke;
-    width: 100%;
+    width: 100%; /* Lebar penuh */
+    max-width: 1230px; /* Lebar maksimum tabel */
+    margin: 0 auto; /* Memusatkan tabel di layar */
     border-collapse: collapse;
-    margin-bottom: 20px;
-    table-layout: fixed; /* Menetapkan lebar tabel agar lebih konsisten */
+    table-layout: auto; /* Menetapkan lebar tabel agar lebih konsisten */
 }
 
 table, th, td {
     border: 1px solid #ddd;
 }
 
-th, td {
+/* th, td {
+    
+} */
+
+th {
     padding: 10px;
     text-align: center;
+    white-space: nowrap; /* Mencegah header terpotong */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Menambahkan "..." jika teks terlalu panjang */
 }
+
+td {
+    word-wrap: break-word; /* Tetap bungkus teks di dalam body tabel */
+    word-break: break-all;
+}
+
+th:nth-child(3), td:nth-child(3) {
+    width: 10%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+th:nth-child(2), td:nth-child(2) {
+    text-align: center;
+    vertical-align: middle;
+}
+
+th:nth-child(4), td:nth-child(4) {
+    /* padding: 10px; */
+    text-align: center;
+    vertical-align: middle;
+}
+
+th:nth-child(5), td:nth-child(5) {
+    width: 50px; /* Lebar tetap untuk kolom ikon trash */
+}
+
+th:nth-child(1), td:nth-child(1) {
+    text-align: center; /* Menjaga teks berada di tengah */
+    vertical-align: middle; /* Opsional: Menjaga teks di tengah secara vertikal */
+    padding: -500px; /* Memberi jarak yang cukup dari tepi */
+    width: 30%;
+}
+
+
+
+
 
 #total-price {
     font-weight: bold;
@@ -114,5 +159,35 @@ th, td {
     #submit-button {
         color: black;
         font-weight: 500;
+    }
+
+    th:nth-child(3), td:nth-child(3) {
+        /* padding: 10px; */
+        text-align: center;
+        vertical-align: middle;
+        width: 17%;
+    }
+
+    th:nth-child(2), td:nth-child(2) {
+        text-align: center;
+        vertical-align: middle;
+        width: 1%;
+    }
+    
+    th:nth-child(4), td:nth-child(4) {
+        /* padding: 10px; */
+        text-align: center;
+        vertical-align: middle;
+        width: 17%;
+    }
+    
+    th:nth-child(5), td:nth-child(5) {
+        width: 50px; /* Lebar tetap untuk kolom ikon trash */
+    }
+    
+    th:nth-child(1), td:nth-child(1) {
+        text-align: center; /* Menjaga teks berada di tengah */
+        vertical-align: middle; /* Opsional: Menjaga teks di tengah secara vertikal */
+        padding: 5px; /* Memberi jarak yang cukup dari tepi */
     }
 }
