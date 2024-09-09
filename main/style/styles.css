@@ -1,6 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
+    background-color: #E7F0DC;
 }
 
 h1, h2, h3 {
@@ -10,7 +11,7 @@ h1, h2, h3 {
 form {
     width: 100%; /* Lebar form yang fleksibel */
     max-width: 1200px; /* Lebar maksimum form */
-    background-color: rgb(255, 195, 142);
+    background-color: #78a455;
     padding: 20px;
     margin: 0 auto; /* Memusatkan form secara horizontal */
     border-radius: 8px; /* Sudut membulat untuk form */
@@ -127,13 +128,14 @@ th:nth-child(1), td:nth-child(1) {
     border: none; 
     padding: 12px 40px; 
     font-size: 16px; 
-    background-color: tomato; 
+    background-color: #4f6447; 
     color: #fff; 
     border-radius: 20px; 
     box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24); 
     cursor: pointer; 
     outline: none; 
     transition: 0.2s all;
+    margin-top: 20px;
 }
 
 
@@ -141,14 +143,14 @@ th:nth-child(1), td:nth-child(1) {
     form {
         width: 90%; /* Lebar form yang fleksibel */
         max-width: 600px; /* Lebar maksimum form */
-        background-color: rgb(255, 195, 142);
+        background-color: #729762;
         padding: 15px;
         margin: 0 auto; /* Memusatkan form secara horizontal */
         border-radius: 8px; /* Sudut membulat untuk form */
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan untuk efek kedalaman */
         display: flex;
         flex-direction: column; /* Mengatur form agar elemen berada di bawah satu sama lain */
-        gap: 10px;
+        gap: 5px;
         margin-top: 40px;
     }
 
@@ -167,8 +169,9 @@ th:nth-child(1), td:nth-child(1) {
     }
 
     #submit-button {
-        color: black;
-        font-weight: 500;
+        color: white;
+        font-weight: 600;
+        margin-top: 20px;
     }
 
     table {
