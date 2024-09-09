@@ -139,7 +139,7 @@ th:nth-child(1), td:nth-child(1) {
 }
 
 
-@media (max-width: 767px) {
+@media (max-width: 900px) {
     form {
         width: 90%; /* Lebar form yang fleksibel */
         max-width: 600px; /* Lebar maksimum form */
