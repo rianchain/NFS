@@ -23,6 +23,8 @@ form {
 label {
     padding-top: 5px;
     justify-content: center;
+    font-weight: bold;
+    text-align: center;
 }
 
 input {
