@@ -36,6 +36,18 @@ input {
     border: none;
 }
 
+/* hide spinner pada input number */
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* hide spinner pada input number */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
 /* button {
     /* background-color: tomato;
     padding: 10px 2px;
