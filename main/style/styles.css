@@ -34,7 +34,9 @@ input {
     text-align: center;
     border-radius: 20px;
     border: none;
+    background-color: whitesmoke;
 }
+
 
 /* hide spinner pada input number */
 input[type=number]::-webkit-outer-spin-button,
